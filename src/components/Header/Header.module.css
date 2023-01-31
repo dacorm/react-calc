@@ -1,3 +1,13 @@
 .header {
-    color: red;
+    padding-top: 25px;
+    display: flex;
+}
+
+.headerNavLink {
+    text-decoration: none;
+    color: #00c6ff;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 19px;
+    font-weight: 700;
 }

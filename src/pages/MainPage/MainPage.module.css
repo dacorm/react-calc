@@ -1,0 +1,45 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.mainPage {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainPageImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 1000px;
+    max-width: 600px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1281px) {
+    .mainPage {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .mainPageImage {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 1069px) {
+    .mainPageImage {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .mainPageImage {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mainPageImage {
+        display: none;
+    }
+}
