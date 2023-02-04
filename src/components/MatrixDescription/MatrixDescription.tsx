@@ -27,7 +27,11 @@ export const MatrixDescription = () => {
             нумеролога.
           </p>
         </div>
-        <img className={styles.matrixDescriptionImage} src={Matrix} />
+        <img
+          className={styles.matrixDescriptionImage}
+          src={Matrix}
+          alt="Картинка: Матрица судьбы"
+        />
       </div>
     </div>
   );
