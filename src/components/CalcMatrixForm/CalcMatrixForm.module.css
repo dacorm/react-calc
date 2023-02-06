@@ -1,0 +1,69 @@
+.calcMatrixFormTitle {
+  color: #00c6ff;
+  text-transform: uppercase;
+  margin: 100px auto 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.calcMatrixFormTextWrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.calcMatrixImage {
+  display: flex;
+  margin: 70px auto 0;
+  max-width: 500px;
+  width: 100%;
+  align-self: center;
+}
+
+.calcMatrixFormText {
+  color: #707070;
+  font-size: 15px;
+}
+
+.calcMatrixForm {
+  min-height: calc(100vh - 194px);
+}
+
+@media screen and (max-width: 810px) {
+  .calcMatrixFormTitle {
+    padding: 0 15px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .calcMatrixFormText {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .calcMatrixImage {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .calcMatrixFormTitle {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .calcMatrixFormTitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .calcMatrixFormText {
+    font-size: 13px;
+  }
+}
