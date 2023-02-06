@@ -1,9 +1,5 @@
 import React from 'react';
 
 export const Matrice = () => {
-    return (
-        <div>
-            matrice
-        </div>
-    );
+  return <div>matrice</div>;
 };

@@ -1,6 +1,6 @@
-import React from "react";
-import { CalculatePage } from "./pages/CalculatePage/CalculatePage";
-import { MainPage } from "./pages/MainPage/MainPage";
+import React from 'react';
+import { CalculatePage } from './pages/CalculatePage/CalculatePage';
+import { MainPage } from './pages/MainPage/MainPage';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./CalcMatrixForm.module.css";
-import MatrixImg from "../../images/CalcMatrix.jpg";
+import React from 'react';
+import styles from './CalcMatrixForm.module.css';
+import MatrixImg from '../../images/CalcMatrix.jpg';
 
 export const CalcMatrixForm = () => {
   return (

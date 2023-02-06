@@ -1,13 +1,11 @@
-import React from "react";
-import styles from "./MainForm.module.css";
+import React from 'react';
+import styles from './MainForm.module.css';
 
 export const MainForm = () => {
   return (
     <div className={styles.mainForm}>
       <h1 className={styles.mainFormTitle}>Матрица судьбы</h1>
-      <h2 className={styles.mainFormSubTitle}>
-        Глубокая расшифровка вашей личности
-      </h2>
+      <h2 className={styles.mainFormSubTitle}>Глубокая расшифровка вашей личности</h2>
       <p className={styles.mainFormParagraph}>
         <span className={styles.mainFormSpan}>Рассчитайте бесплатно </span>
         вашу матрицу судьбы, прямо сейчас, чтобы узнать себя на 100%
@@ -27,9 +25,7 @@ export const MainForm = () => {
         />
         <label className={styles.mainFormSwitch} htmlFor="checkbox">
           <input type="checkbox" id="checkbox" />
-          <div
-            className={`${styles.mainFormSlider} ${styles.mainFormRound}`}
-          ></div>
+          <div className={`${styles.mainFormSlider} ${styles.mainFormRound}`}></div>
         </label>
         <button type="submit" className={styles.mainFormButton}>
           Рассчитать мою судьбу
