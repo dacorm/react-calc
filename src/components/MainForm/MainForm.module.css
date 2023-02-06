@@ -1,0 +1,166 @@
+.mainForm {
+  position: relative;
+}
+
+.mainFormTitle {
+  text-align: center;
+  margin: 100px auto 11px;
+  color: #00c6ff;
+  text-transform: uppercase;
+}
+
+.mainFormSubTitle {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: #707070;
+  text-transform: uppercase;
+}
+
+.mainFormSpan {
+  color: #707070;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.mainFormParagraph {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  font-size: 16px;
+  margin-top: 51px;
+  color: #707070;
+}
+
+.inputText {
+  min-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: 0.3s border-color;
+  box-shadow: 0 0 5px;
+}
+
+.inputText:hover {
+  border: 1px solid #aaa;
+}
+
+.mainFormInputs {
+  margin: 30px auto 0;
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mainFormButton {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  margin-top: 30px;
+  border-radius: 50px;
+  min-height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00c6ff;
+  text-decoration: none;
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #00c6ff 50%,
+    #00c6ff
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.25s ease-in;
+  font: 400 18px tahoma;
+  border: 1px solid #00c6ff;
+  background-color: #fff;
+  box-shadow: 0 0 5px;
+}
+
+.mainFormButton:hover {
+  background-position: 0 0;
+  color: #fff;
+}
+
+.mainFormSwitch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.mainFormSwitch input {
+  display: none;
+}
+
+.mainFormSlider {
+  background-color: #00c6ff;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.mainFormSlider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .mainFormSlider {
+  background-color: #da70d6;
+}
+
+input:checked + .mainFormSlider:before {
+  transform: translateX(26px);
+}
+
+.mainFormSlider.mainFormRound {
+  border-radius: 34px;
+}
+
+.mainFormSlider.mainFormRound:before {
+  border-radius: 50%;
+}
+@media screen and (max-width: 550px) {
+  .mainFormInputs {
+    padding: 0 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 483px) {
+  .mainFormParagraph {
+    margin: 51px 30px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .mainFormTitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .mainFormSubTitle {
+    margin: 0 30px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
