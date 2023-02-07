@@ -136,11 +136,18 @@ input:checked + .mainFormSlider:before {
 .mainFormSlider.mainFormRound:before {
   border-radius: 50%;
 }
+
 @media screen and (max-width: 550px) {
   .mainFormInputs {
     padding: 0 30px;
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mainFormSwitch {
+    align-self: center;
   }
 }
 

@@ -12,6 +12,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1440px) {
+  .mainPageImage {
+    max-width: 460px;
+  }
+}
+
 @media screen and (min-width: 1281px) {
   .mainPage {
     margin: 0 auto;
